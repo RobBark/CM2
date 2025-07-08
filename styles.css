@@ -87,15 +87,29 @@ div a {
 
 .location {
     background: #273F4F;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding: 7px;
     
 }
 
-.location h2, h3 {
+.location-h2 {
     color: #EFEEEA;
+    background: #273f4f;
+    margin-bottom: 0;
+}
+
+.location h3 {
+    margin-top: 35%;
+    color: #efeeea;
 }
 
 .location img{
     background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%)
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 70%;
 }
 
 footer {
